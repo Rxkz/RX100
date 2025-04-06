@@ -19,6 +19,7 @@ void kitchenInterface();
 void managerInterface();
 void displayMainMenu();
 
+
 int main() {
     int choice;
     bool exit = false;
