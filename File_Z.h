@@ -81,7 +81,7 @@ namespace TwoCli {
         // Read all records from file
         vector<R> readRecords() {
             lock_guard<mutex> lock(file_mutex);
-            vector<R> records; // Fixed: using R instead of T
+            vector<R> records; //  using R instead of T
 
             ifstream file(filename);
             if (file.is_open()) {
@@ -160,12 +160,12 @@ namespace TwoCli {
             bool running = true;
 
             // Ensure input buffer is clear
-            cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Fixed syntax
+            cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
 
             while (running) {
                 // Read current records
                 vector<R> currentRecords = readRecords();
-                string currentTimestamp = stbase::getCurrentTimeMark(); // Fixed function name
+                string currentTimestamp = stbase::getCurrentTimeMark(); 
 
                 // Check for changes (using custom function or default size check)
                 bool hasChanges = needsRefresh ||
