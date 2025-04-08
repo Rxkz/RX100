@@ -43,7 +43,7 @@ void kitchenInterface() {
                 if (order.status == "Pending") {
                     hasPending = true;
                     cout << "Order #" << order.id << " - Table: " << order.tableId
-                        << " - Time: " << order.timestamp.substr(11, 8) << endl;
+                        << " - Time: " << order.timestamp.substr(11, 8) << " --- PENDING" << endl;
 
                     cout << "Items:" << endl;
                     for (const auto& itemStr : order.items) {

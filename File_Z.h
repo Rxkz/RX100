@@ -147,7 +147,7 @@ namespace TwoCli {
         void startMonitor(
             function<void(const vector<R>&)> displayFunc,
             function<bool(const vector<R>&, const vector<R>&)> hasChangesFunc,
-            int refreshInterval = 3
+            int refreshInterval = 3 // this is time to make it longer or shorter 
         ) {
             clearScreen();
             cout << "Starting live monitoring. Screen will refresh every "
