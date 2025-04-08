@@ -7,7 +7,7 @@ A comprehensive C++ console application for managing restaurant operations inclu
 The Restaurant Management System (RMS) is designed to streamline operations for a restaurant by providing separate interfaces for waiters, kitchen staff, and managers. The system manages tables, menu items, and orders through a simple console-based interface.
 
 ## UML Class Diagram
-![Editor _ Mermaid Chart-2025-04-06-045524](https://github.com/user-attachments/assets/296ccbb8-9806-431d-85b5-cfa2beefdeaf)
+![Editor _ Mermaid Chart-2025-04-06-045524](https://github.com/user-attachments/assets/58b6f778-c9be-4b9c-92a2-ae71c075594d)
 
 
 
